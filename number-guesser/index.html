@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Number Guesser</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1> Number Guesser </h1>
+    <section class="main-form">
+      <!-- GUESS FORM -->
+      <input type="number" id="guess" min="1" max="100" value=1>
+      <!-- BUTTONS  -->
+      <button type="button" id="guessbtn"> Guess! </button>
+      <button type="button" id="clearbtn" value="clear"> Clear! </button>
+      <button type="button" id="resetbtn" value="reset"> Reset! </button>
+      <!-- RANGE CHANGE SECTION  -->
+      <section class="secondary-functions">
+        <p>
+          <input type="number" id="input-min" value=1>
+          <input type="number" id="input-max" value=100>
+          <button type="button" id="rangebtn" value="range"> Change Range! </button>
+        </p>
+      </section>
+      <!-- OUTPUT FIELD -->
+      <section id="output">
+          What's your guess?
+      </section>
+    </section>
+  </section>
+</body>
+<script src="scripts.js"></script>
+</html>

@@ -1,0 +1,90 @@
+/*https://color.adobe.com/Firenze-color-theme-24198/*/
+
+body {
+    background-color: #468966;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    top: -40px;
+}
+.container {
+    padding: 100px;
+    height: 380px;
+    width: auto;
+    border-radius: 50%;
+    background: #FFF0A5;
+    text-align: center;
+}
+#guess {
+    width: 50%;
+    border-width: 8px;
+    border-color: #FFB03B;
+    box-sizing: border-box;
+    position: relative;
+    top: -40px;
+}
+#guessbtn,
+#clearbtn,
+#resetbtn,
+#rangebtn {
+    width: 60%;
+    margin: 8px auto;
+    border-radius: 5%;
+    border-color: #FFB03B;
+    border-width: 8px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    letter-spacing: 2px;
+    position: relative;
+    top: -40px;
+}
+#rangebtn {
+    width: 50%;
+    top: -48px;
+}
+#input-max,
+#input-min {
+    display: inline-block;
+    margin: 8px 0;
+    width: 30%;
+    border-color: #FFB03B;
+    border-width: 8px;
+    box-sizing: border-box;
+    position: relative;
+    top: -40px;
+}
+input {
+    border-radius: 5%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+button {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+#output {
+    font-size: 150%;
+    text-align: center;
+    text: #8E2800;
+    position: relative;
+    top: -35px;
+}
+input:focus {
+  outline-color: #468966;
+}
+button:focus {
+  outline-color: #468966;
+}
+button:enabled {
+  cursor: pointer;
+}
+button:disabled {
+    cursor: not-allowed;
+}
